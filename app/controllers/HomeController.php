@@ -17,7 +17,10 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('hello');
+		$post = new StdClass;
+        $post->title = 'My post title';
+
+        return View::make('home.welcome')->with('post', $post);
 	}
 
 }
