@@ -16,4 +16,4 @@ Route::get('post/listing', array('uses' => 'PostController@listing', 'as' => 'ge
 Route::get('post/{id}', array('uses' => 'PostController@single', 'as' => 'get.post.single'))->where(array('id' => '[1-9][0-9]*'));
 Route::post('post/{id}', array('uses' => 'PostController@update', 'as' => 'post.post.single'))->where(array('id' => '[1-9][0-9]*'));
 
-Route::resource('user', 'UserController', array('only' => array('edit', 'update', 'destroy')));
+Route::resource('user', 'UserController');
