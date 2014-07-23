@@ -1,6 +1,6 @@
 ## Getting started with Laravel 4
 
-### Tuts+ instructor: Instructor
+### Your Tuts+ instructor: Joost van Veen
 
 Getting started with Laravel4 is a Tuts+ course on, well... Laravel essentials. In this repository, you'll find the source code for this course.
 
@@ -12,6 +12,8 @@ Don't forget to run Composer install after cloning this repository to your local
 
 ## Course contents
 
+* Lesson 11 - Laravel 4 Query Builder
+* Lesson 10 - Laravel 4 migrations
 * Lesson 09 - Blade layouts and partials
 * Lesson 08 - Blade essentials
 * Lesson 07 - Resource controllers
