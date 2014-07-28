@@ -65,7 +65,7 @@ class UserController extends \BaseController {
         // $user = DB::table('users')->where(array('email' => 'john@doe.com', 'id'=> $id))->first();
         // $user = DB::table('users')->where('id', $id)->first();
         // $user = DB::table('users')->find($id);
-        $user = User::find($id);
+        $user = User::with('categories')->find($id);
 
         return View::make('user.show', compact('user'));
 	}
@@ -79,7 +79,8 @@ class UserController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+        $user = User::find($id);
+        return View::make('user.edit', compact('user'));
 	}
 
 
@@ -91,7 +92,7 @@ class UserController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+		dd(Input::all());
 	}
 
 
