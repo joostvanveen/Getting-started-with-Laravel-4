@@ -1,0 +1,1 @@
+/Users/joostvanveen/htdocs/laravel/app/views/posts/create.blade.php
