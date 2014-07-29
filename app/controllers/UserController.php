@@ -92,7 +92,13 @@ class UserController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		dd(Input::all());
+        $validator = Validator::make(Input::all(), User::$rules);
+
+        if($validator->fails()){
+            return Redirect::back()->withInput()->withErrors($validator);
+        }
+
+        dd(Input::all());
 	}
 
 

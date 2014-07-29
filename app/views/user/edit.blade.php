@@ -10,21 +10,25 @@
             <!-- Laravel Form can also create email text inputs -->
             {{ Form::label('email', 'Your email') }}
             {{ Form::email('email') }}
+            {{ $errors->first('email') }}
         </li>
         <li>
             <!-- Laravel does not populate password fields -->
             {{ Form::label('password', 'Your password') }}
             {{ Form::password('password') }}
+            {{ $errors->first('password') }}
         </li>
         <li>
             <!-- This cannot be set by the From class -->
             {{ Form::label('active', 'Active?') }}
             {{ Form::checkbox('active') }}
+            {{ $errors->first('active') }}
         </li>
         <li>
             <!-- Set the options for a select box with an array -->
             {{ Form::label('permission', 'Your permission') }}
             {{ Form::select('permission', array('1' => 'Webmaster', '2' => 'Editor', '3' => 'Member')) }}
+            {{ $errors->first('permission') }}
         </li>
         <li>
             {{ Form::submit('Save') }}
