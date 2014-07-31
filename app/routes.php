@@ -1,3 +1,5 @@
 <?php
 
-Route::resource('posts', 'PostsController', array('except' => array('show')));
+Route::group(array('prefix' => 'admin'), function(){
+    Route::resource('posts', 'AdminPostsController', array('except' => array('show')));
+});

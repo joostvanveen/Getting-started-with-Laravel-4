@@ -1,6 +1,6 @@
 <?php
 
-class PostsController extends \BaseController {
+class AdminPostsController extends \BaseController {
 
 	/**
 	 * Display a listing of posts
@@ -11,7 +11,7 @@ class PostsController extends \BaseController {
 	{
 		$posts = Post::all();
 
-		return View::make('posts.index', compact('posts'));
+		return View::make('admin.posts.index', compact('posts'));
 	}
 
 	/**
@@ -21,7 +21,7 @@ class PostsController extends \BaseController {
 	 */
 	public function create()
 	{
-		return View::make('posts.create');
+		return View::make('admin.posts.create');
 	}
 
 	/**
@@ -40,7 +40,7 @@ class PostsController extends \BaseController {
 
 		Post::create($data);
 
-		return Redirect::route('posts.index');
+		return Redirect::route('admin.posts.index');
 	}
 
 	/**
@@ -53,7 +53,7 @@ class PostsController extends \BaseController {
 	{
 		$post = Post::find($id);
 
-		return View::make('posts.edit', compact('post'));
+		return View::make('admin.posts.edit', compact('post'));
 	}
 
 	/**
@@ -75,7 +75,7 @@ class PostsController extends \BaseController {
 
 		$post->update($data);
 
-		return Redirect::route('posts.index');
+		return Redirect::route('admin.posts.index');
 	}
 
 	/**
@@ -88,7 +88,7 @@ class PostsController extends \BaseController {
 	{
 		Post::destroy($id);
 
-		return Redirect::route('posts.index');
+		return Redirect::route('admin.posts.index');
 	}
 
 }

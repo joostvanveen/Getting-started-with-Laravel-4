@@ -1,25 +1,30 @@
-## Laravel PHP Framework
+## Getting started with Laravel 4
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+### Your Tuts+ instructor: Joost van Veen
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Getting started with Laravel4 is a Tuts+ course on, well... Laravel essentials. In this repository, you'll find the source code for this course.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Every commit is a lesson
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+You will find the source code for the different lessons by running through the commits in the Master branch. The only exception to this rule is Lesson 3, for which the source code is in the L3 branch.
 
-## Official Documentation
+Don't forget to run Composer install after cloning this repository to your local machine.
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+## Course contents
 
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+* Lesson 18 - Creating The Admin Post Resource
+* Lesson 17 - Setting Up the Blog
+* Lesson 16 - Validating The Form
+* Lesson 15 - Setting Up A Laravel Form
+* Lesson 14 - Laravel 4 Database Seeding
+* Lesson 13 - Eloquent Relations
+* Lesson 12 - Eloquent CRUD
+* Lesson 11 - Laravel 4 Query Builder
+* Lesson 10 - Laravel 4 Migrations
+* Lesson 09 - Blade Layouts And Partials
+* Lesson 08 - Blade Essentials
+* Lesson 07 - Resource Controllers
+* Lesson 06 - Laravel 4 Route Groups And Filters
+* Lesson 05 - Laravel 4 Routing
+* Lesson 04 - Laravel 4 MVC
+* Lesson 03 - Creating A Laravel 4 Project
