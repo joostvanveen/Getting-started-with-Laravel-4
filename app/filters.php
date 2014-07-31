@@ -43,13 +43,13 @@ Route::filter('auth', function()
 		}
 		else
 		{
-			return Redirect::guest('login');
+			return Redirect::guest('admin/login');
 		}
 	}
 });
 
 
-Route::filter('auth.basic', function()
+Route::filter('basic.auth', function()
 {
 	return Auth::basic();
 });
