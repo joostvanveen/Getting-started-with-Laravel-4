@@ -1,0 +1,20 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:400');
+@import url('http://fonts.googleapis.com/css?family=Dosis');
+
+body { margin: 0; padding: 0; color: #333; font-size: 18px; font-family: "Dosis", helvetica, arial, sans-serif; font-weight: normal; }
+h1, h2, h3 { font-family: "Arvo", helvetica, arial, sans-serif; font-weight: normal; }
+h2 a { color: #333; text-decoration: none; }
+h2 a:hover, h2 a:active, h2 a:focus { color: #4288CE; text-decoration: none; }
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 20px; }
+a { color: #4288CE; }
+a:hover, a:active, a:focus { color: #3C338D; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+header { padding: 20px 0; background: #333; margin-bottom: 20px; color: white; }
+main { margin-bottom: 20px; }
+footer { border-top: 1px solid #ccc; margin: 40px 0; padding-top: 20px; text-align: right; }
+.container { max-width: 700px; margin: 0 auto; width: 96%; padding: 0 2%; }
+
+article { padding-bottom: 20px; border-bottom: 1px solid #ccc; margin-bottom: 20px; }
+p.created_at { margin: 0; padding: 0; }
+article h2 { margin: 0 0 10px 0; padding: 0; }

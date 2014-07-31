@@ -12,6 +12,7 @@ Don't forget to run Composer install after cloning this repository to your local
 
 ## Course contents
 
+* Lesson 20 - Creating the front-end
 * Lesson 19 - Securing The Admin Panel
 * Lesson 18 - Creating The Admin Post Resource
 * Lesson 17 - Setting Up the Blog
