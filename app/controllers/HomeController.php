@@ -17,7 +17,9 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('hello');
+        // Hover in your IDE to enjoy code completion.
+        // Don't forget to run composer install to bring in teh Laravel IDE helper first :)
+        Post::findOrFail(1);
 	}
 
 }
